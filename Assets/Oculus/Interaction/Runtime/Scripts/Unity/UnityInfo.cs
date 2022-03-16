@@ -1,35 +1,3 @@
-/************************************************************************************
-Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
-
-Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
-https://developer.oculus.com/licenses/oculussdk/
-
-Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
-under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-ANY KIND, either express or implied. See the License for the specific language governing
-permissions and limitations under the License.
-************************************************************************************/
-
-namespace Oculus.Interaction
-{
-    public static class UnityInfo
-    {
-        public static bool IsEditor()
-        {
-#if UNITY_EDITOR
-            return true;
-#else
-            return false;
-#endif
-        }
-
-        public static bool Version_2020_3_Or_Newer()
-        {
-#if UNITY_2020_3_OR_NEWER
-            return true;
-#else
-            return false;
-#endif
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8596042394f2029ca5604d0e5340270bca455fa4ec653c9d7fb9e5c8e4770239
+size 1105

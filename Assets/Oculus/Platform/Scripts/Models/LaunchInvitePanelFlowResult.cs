@@ -1,22 +1,3 @@
-// This file was @generated with LibOVRPlatform/codegen/main. Do not modify it!
-
-namespace Oculus.Platform.Models
-{
-  using System;
-  using System.Collections;
-  using Oculus.Platform.Models;
-  using System.Collections.Generic;
-  using UnityEngine;
-
-  public class LaunchInvitePanelFlowResult
-  {
-    public readonly UserList InvitedUsers;
-
-
-    public LaunchInvitePanelFlowResult(IntPtr o)
-    {
-      InvitedUsers = new UserList(CAPI.ovr_LaunchInvitePanelFlowResult_GetInvitedUsers(o));
-    }
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:587314a6d35e0cbb379497b34c930fa8caf3cd0454496b14ca58dba41f36be82
+size 502

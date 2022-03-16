@@ -1,17 +1,3 @@
-﻿/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using UnityEngine.Events;
-
-namespace Facebook.WitAi.Events
-{
-    [Serializable]
-    public class WitMicLevelChangedEvent : UnityEvent<float>
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5887b015aadc9ef5c0fce3fe1c372eac6556dc0dae97f4e6ddb1a12d71c8015f
+size 357

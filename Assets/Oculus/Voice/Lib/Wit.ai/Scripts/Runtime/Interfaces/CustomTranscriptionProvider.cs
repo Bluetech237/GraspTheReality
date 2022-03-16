@@ -1,35 +1,3 @@
-﻿/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using Facebook.WitAi.Events;
-using UnityEngine;
-using UnityEngine.Events;
-
-namespace Facebook.WitAi.Interfaces
-{
-    public abstract class CustomTranscriptionProvider : MonoBehaviour, ITranscriptionProvider
-    {
-        [SerializeField] private bool overrideMicLevel = false;
-
-        private WitTranscriptionEvent onPartialTranscription = new WitTranscriptionEvent();
-        private WitTranscriptionEvent onFullTranscription = new WitTranscriptionEvent();
-        private UnityEvent onStoppedListening = new UnityEvent();
-        private UnityEvent onStartListening = new UnityEvent();
-        private WitMicLevelChangedEvent onMicLevelChanged = new WitMicLevelChangedEvent();
-
-        public string LastTranscription { get; }
-        public WitTranscriptionEvent OnPartialTranscription => onPartialTranscription;
-        public WitTranscriptionEvent OnFullTranscription => onFullTranscription;
-        public UnityEvent OnStoppedListening => onStoppedListening;
-        public UnityEvent OnStartListening => onStartListening;
-        public WitMicLevelChangedEvent OnMicLevelChanged => onMicLevelChanged;
-        public bool OverrideMicLevel => overrideMicLevel;
-
-        public abstract void Activate();
-        public abstract void Deactivate();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:34bebb7ec2c9f9e5c207115da01ad7f5e8473028123884cc22c66773f88d7d2b
+size 1448

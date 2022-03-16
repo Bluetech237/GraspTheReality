@@ -1,31 +1,3 @@
-/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using Facebook.WitAi.Lib;
-using UnityEngine;
-
-namespace Facebook.WitAi.Data.Traits
-{
-    [Serializable]
-    public class WitTraitValue
-    {
-        [SerializeField] public string id;
-        [SerializeField] public string value;
-
-        #if UNITY_EDITOR
-        public static WitTraitValue FromJson(WitResponseNode traitValueNode)
-        {
-            return new WitTraitValue()
-            {
-                id = traitValueNode["id"],
-                value = traitValueNode["value"]
-            };
-        }
-        #endif
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77905932b29434e13b25581e30b770d760514e1946bd9470b7145a4cc165f1a7
+size 734

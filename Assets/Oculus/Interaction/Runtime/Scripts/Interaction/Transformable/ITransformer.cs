@@ -1,25 +1,3 @@
-/************************************************************************************
-Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
-
-Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
-https://developer.oculus.com/licenses/oculussdk/
-
-Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
-under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-ANY KIND, either express or implied. See the License for the specific language governing
-permissions and limitations under the License.
-************************************************************************************/
-
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace Oculus.Interaction
-{
-    public interface ITransformer
-    {
-        void Initialize(ITransformable transformable);
-        void BeginTransform();
-        void UpdateTransform();
-        void EndTransform();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:88dfa978a76a7f818b09c2fbf6516a55d19537eb90556ba3dc590b25a2affd3d
+size 1003

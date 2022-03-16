@@ -1,22 +1,3 @@
-/**************************************************************************************************
- * Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
- *
- * Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
- * https://developer.oculus.com/licenses/oculussdk/
- *
- * Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
- * under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
- * ANY KIND, either express or implied. See the License for the specific language governing
- * permissions and limitations under the License.
- **************************************************************************************************/
-
-using Facebook.WitAi.Inspectors;
-using UnityEditor;
-
-namespace Oculus.Voice.Inspectors
-{
-    [CustomEditor(typeof(AppVoiceExperience))]
-    public class AppVoiceExperienceEditor : WitInspector
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a657c8ac4743c7118c184f0e7b68842ca4fd75229bb5448ea7173dbdc6e375d
+size 984

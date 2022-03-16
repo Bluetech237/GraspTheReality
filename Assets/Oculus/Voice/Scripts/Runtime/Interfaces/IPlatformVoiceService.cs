@@ -1,24 +1,3 @@
-﻿/**************************************************************************************************
- * Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
- *
- * Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
- * https://developer.oculus.com/licenses/oculussdk/
- *
- * Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
- * under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
- * ANY KIND, either express or implied. See the License for the specific language governing
- * permissions and limitations under the License.
- **************************************************************************************************/
-
-using Facebook.WitAi;
-using Facebook.WitAi.Configuration;
-
-namespace Oculus.Voice.Interfaces
-{
-    public interface IPlatformVoiceService : IVoiceService
-    {
-        bool PlatformSupportsWit { get; }
-
-        void SetRuntimeConfiguration(WitRuntimeConfiguration configuration);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b24dce99caedc8a5a78b9835ee349f61fbfb0bbe0f24bc09ae76be3342a321b
+size 1068

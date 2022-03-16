@@ -1,31 +1,3 @@
-﻿/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using Facebook.WitAi.Lib;
-using UnityEngine;
-
-namespace Facebook.WitAi.Data.Keywords
-{
-    [Serializable]
-    public class WitEntityRole
-    {
-        [SerializeField] public string id;
-        [SerializeField] public string name;
-
-#if UNITY_EDITOR
-        public static WitEntityRole FromJson(WitResponseNode roleNode)
-        {
-            return new WitEntityRole()
-            {
-                id = roleNode["id"],
-                name = roleNode["name"]
-            };
-        }
-#endif
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7fa300daa4a82e56b5719eb168d03c78b8411fcb26ced25a665cca85ed24aa4
+size 702

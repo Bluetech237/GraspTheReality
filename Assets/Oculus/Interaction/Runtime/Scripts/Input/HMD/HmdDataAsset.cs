@@ -1,32 +1,3 @@
-﻿/************************************************************************************
-Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
-
-Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
-https://developer.oculus.com/licenses/oculussdk/
-
-Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
-under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-ANY KIND, either express or implied. See the License for the specific language governing
-permissions and limitations under the License.
-************************************************************************************/
-
-using System;
-using UnityEngine;
-
-namespace Oculus.Interaction.Input
-{
-    [Serializable]
-    public class HmdDataAsset : ICopyFrom<HmdDataAsset>
-    {
-        public Pose Root;
-        public bool IsTracked;
-        public int FrameId;
-
-        public void CopyFrom(HmdDataAsset source)
-        {
-            Root = source.Root;
-            IsTracked = source.IsTracked;
-            FrameId = source.FrameId;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd42aa5486cdba4f01cca7a75167b7e123949532da7e3ec3b0aeb596943de6a4
+size 1154

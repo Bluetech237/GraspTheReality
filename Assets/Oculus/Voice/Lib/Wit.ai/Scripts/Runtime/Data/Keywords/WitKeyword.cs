@@ -1,31 +1,3 @@
-﻿/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using Facebook.WitAi.Lib;
-using UnityEngine;
-
-namespace Facebook.WitAi.Data.Keywords
-{
-    [Serializable]
-    public class WitKeyword
-    {
-        [SerializeField] public string keyword;
-        [SerializeField] public string[] synonyms;
-
-        #if UNITY_EDITOR
-        public static WitKeyword FromJson(WitResponseNode keywordNode)
-        {
-            return new WitKeyword()
-            {
-                keyword = keywordNode["keyword"],
-                synonyms = keywordNode["synonyms"].AsStringArray
-            };
-        }
-        #endif
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2d787f09083c91e50944ab6fad2e3f26a71496a39a907c3806b94d0a73b8187
+size 761

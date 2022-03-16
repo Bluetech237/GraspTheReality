@@ -1,27 +1,3 @@
-/************************************************************************************
-Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
-
-Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
-https://developer.oculus.com/licenses/oculussdk/
-
-Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
-under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-ANY KIND, either express or implied. See the License for the specific language governing
-permissions and limitations under the License.
-************************************************************************************/
-
-using System.Collections.Generic;
-using UnityEngine;
-using System;
-
-namespace Oculus.Interaction
-{
-    public interface ITransformable
-    {
-        event Action<TransformableArgs> WhenTransformableUpdated;
-
-        List<GrabPoint> GrabPoints { get; }
-
-        Transform Transform { get; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e34839011a1b8fa5112235120e9e947f2fcfc88151f12234bdacaf5b623c939
+size 1021

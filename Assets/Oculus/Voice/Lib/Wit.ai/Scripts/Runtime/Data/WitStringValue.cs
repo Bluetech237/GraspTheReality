@@ -1,34 +1,3 @@
-﻿/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using Facebook.WitAi.Lib;
-
-namespace Facebook.WitAi.Data
-{
-    public class WitStringValue : WitValue
-    {
-        public override object GetValue(WitResponseNode response)
-        {
-            return GetStringValue(response);
-        }
-
-        public override bool Equals(WitResponseNode response, object value)
-        {
-            if (value is string sValue)
-            {
-                return GetStringValue(response) == sValue;
-            }
-
-            return "" + value == GetStringValue(response);
-        }
-
-        public string GetStringValue(WitResponseNode response)
-        {
-            return Reference.GetStringValue(response);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63cb762d6556027d2f68803d91cc2474b0b0f431d3d02912efd4ff332bce6343
+size 858

@@ -1,34 +1,3 @@
-﻿/*
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-using System;
-using UnityEngine;
-using UnityEngine.Events;
-
-namespace Facebook.WitAi.Utilities
-{
-    public class FloatToStringEvent : MonoBehaviour
-    {
-        [SerializeField] private string format;
-        [SerializeField] private StringEvent onFloatToString = new StringEvent();
-
-        public void ConvertFloatToString(float value)
-        {
-            if (string.IsNullOrEmpty(format))
-            {
-                onFloatToString?.Invoke(value.ToString());
-            }
-            else
-            {
-                onFloatToString?.Invoke(value.ToString(format));
-            }
-        }
-    }
-
-    [Serializable]
-    public class StringEvent : UnityEvent<string> {}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:380f35018d9ff7f74d18df687dbd871291bcfbe957290dae0c57ceb7e11fbe80
+size 872

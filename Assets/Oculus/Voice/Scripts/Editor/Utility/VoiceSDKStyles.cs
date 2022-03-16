@@ -1,26 +1,3 @@
-/**************************************************************************************************
- * Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
- *
- * Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
- * https://developer.oculus.com/licenses/oculussdk/
- *
- * Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
- * under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
- * ANY KIND, either express or implied. See the License for the specific language governing
- * permissions and limitations under the License.
- **************************************************************************************************/
-
-using UnityEngine;
-
-namespace Oculus.Voice.Utility
-{
-    public class VoiceSDKStyles
-    {
-        public static Texture2D MainHeader;
-
-        static VoiceSDKStyles()
-        {
-            MainHeader = (Texture2D) Resources.Load("voicesdk_heroart");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0c32ea8c1dcd6c37627594ade4b763b8531dfdc2dc2c38602548626e4ee8375
+size 1046

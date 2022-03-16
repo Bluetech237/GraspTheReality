@@ -1,28 +1,3 @@
-/************************************************************************************
-Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
-
-Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
-https://developer.oculus.com/licenses/oculussdk/
-
-Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
-under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-ANY KIND, either express or implied. See the License for the specific language governing
-permissions and limitations under the License.
-************************************************************************************/
-
-using System.Collections.Generic;
-
-namespace Oculus.Interaction
-{
-    /// <summary>
-    /// A interface for a registry that houses a set of concrete Interactables.
-    /// </summary>
-    public interface IInteractableRegistry<TInteractor, TInteractable>
-                                          where TInteractable : IInteractable<TInteractor>
-    {
-        void Register(TInteractable interactable);
-        void Unregister(TInteractable interactable);
-        IEnumerable<TInteractable> List();
-        IEnumerable<TInteractable> List(TInteractor interactor);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca0146db40eaaea50e46a52d96626aa79091f3802982e5f092ed2017f62dfea6
+size 1294

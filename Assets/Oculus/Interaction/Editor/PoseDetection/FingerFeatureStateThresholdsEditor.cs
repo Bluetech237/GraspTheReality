@@ -1,27 +1,3 @@
-/************************************************************************************
-Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.
-
-Your use of this SDK or tool is subject to the Oculus SDK License Agreement, available at
-https://developer.oculus.com/licenses/oculussdk/
-
-Unless required by applicable law or agreed to in writing, the Utilities SDK distributed
-under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
-ANY KIND, either express or implied. See the License for the specific language governing
-permissions and limitations under the License.
-************************************************************************************/
-
-using System.Collections.Generic;
-using UnityEditor;
-
-namespace Oculus.Interaction.PoseDetection.Editor
-{
-    [CustomEditor(typeof(FingerFeatureStateThresholds))]
-    public class FingerFeatureStateThresholdsEditor
-        : FeatureStateThresholdsEditor<FingerFeature>
-    {
-        protected override IReadOnlyDictionary<FingerFeature, FeatureDescription> CreateFeatureDescriptions()
-        {
-            return FingerFeatureProperties.FeatureDescriptions;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3db5960e11684b281ee9dd66b94126957f25e1c14bb0ef3e3102dce7534a40aa
+size 1200
